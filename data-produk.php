@@ -36,7 +36,7 @@
         <div class="countainer">
             <h3>Data Produk</h3>
             <div class="box">
-                <p><a href="tambah-Produk.php">Tambah Data</a></p>
+                <p><a href="tambah-Produk.php">➕ Tambah Data</a></p>
                 <table border="1" cellspacing="0" class="table">
                     <thead>
                         <tr>
@@ -67,9 +67,9 @@
                             <td><?php echo ($row['product_status'] == 0)? 'Tidak aktif': 'Aktif'; ?></td>
                             <td>
 
-                                <a href="edit-produk.php?id=<?php echo $row['product_id']?>">Edit </a> || <a
+                                <a href="edit-produk.php?id=<?php echo $row['product_id']?>">🖊️</a> || <a
                                     href="proses-hapus.php?idp=<?php echo $row['product_id']?>"
-                                    onclick="return confirm('Yakin Ingin Hapus ?')">Hapus</a>
+                                    onclick="return confirm('Yakin Ingin Hapus ?')">⛔</a>
                             </td>
                         </tr>
                         <?php }}else {?>

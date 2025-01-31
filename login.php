@@ -18,12 +18,13 @@
     <div class="box-Login">
         <img src="img/MCC.PNG" width="100px">
         <hr>
-        <h2>Login</h2>
+        <h2>Login Admin</h2>
         <form action="" method="POST">
             <input type="text" name="user" placeholder="username" class="input-control">
             <input type="password" name="pass" placeholder="password" class="input-control">
             <input type="submit" name="submit" value="Login" class="btn">
         </form>
+        <p class="lgn"><a href="index.php">← Kembali ke Beranda</a></p>
         <?php
             if(isset($_POST['submit'])) {
                 session_start();

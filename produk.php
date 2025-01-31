@@ -33,7 +33,7 @@ include 'db.php';
             <form action="produk.php">
                 <input type="text" name="search" placeholder="Cari Produk" value="<?php echo $_GET['search'] ?>">
                 <input type="hidden" name="kat" value="<?php echo $_GET['kat'] ?>">
-                <input type="submit" name="cari" value="Cari Produk">
+                <input type="submit" name="cari" value="Cari">
             </form>
         </div>
     </div>

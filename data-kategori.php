@@ -36,7 +36,7 @@
         <div class="countainer">
             <h3>Data Kategori</h3>
             <div class="box">
-                <p><a href="tambah-kategori.php">Tambah Data</a></p>
+                <p><a href="tambah-kategori.php">➕ Tambah Data</a></p>
                 <table border="1" cellspacing="0" class="table">
                     <thead>
                         <tr>
@@ -55,10 +55,10 @@
                         <tr>
                             <td><?php echo $no++ ?></td>
                             <td><?php echo $row['category_name']?></td>
-                            <td>1
-                                <a href="edit-kategori.php?id=<?php echo $row['category_id']?>">Edit </a> || <a
+                            <td>
+                                <a href="edit-kategori.php?id=<?php echo $row['category_id']?>">🖊️</a> || <a
                                     href="proses-hapus.php?idk=<?php echo $row['category_id']?>"
-                                    onclick="return confirm('Yakin Ingin Hapus ?')">Hapus</a>
+                                    onclick="return confirm('Yakin Ingin Hapus ?')">⛔</a>
                             </td>
                         </tr>
                         <?php }}else{ ?>
